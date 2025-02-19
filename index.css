@@ -40,7 +40,7 @@ header {
     font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
-    background: url("../Shoes webpage/imgs/pagbg2.jpg") top / cover no-repeat;
+    background: url("imgs/pagbg2.jpg") top / cover no-repeat;
     background-clip: text;
     color: transparent;
     cursor: pointer;
@@ -107,7 +107,7 @@ main {
 }
 
 .container {
-    background-image: url("../Shoes webpage/imgs/shoebg.jpeg");
+    background-image: url("imgs/shoebg.jpeg");
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +122,7 @@ main {
 }
 
 .container {
-    mask: url("../Shoes webpage/imgs/bottom-left.svg") center /contain no-repeat, linear-gradient(#000000 0 0);
+    mask: url("imgs/bottom-left.svg") center /contain no-repeat, linear-gradient(#000000 0 0);
     mask-composite: exclude;
     mask-size: 40rem;
     mask-position: bottom left;
@@ -229,7 +229,7 @@ main {
 }
 
 .card {
-    mask: url("../Shoes webpage/imgs/top-left.svg") center / contain no-repeat, linear-gradient(#000000 0 0);
+    mask: url("imgs/top-left.svg") center / contain no-repeat, linear-gradient(#000000 0 0);
     mask-composite: exclude;
     mask-size: 4rem;
     mask-position: left top;
@@ -360,7 +360,7 @@ main {
 .card-image-with-svg-mask-1 {
     width: 80vw;
     height: 80vh;
-    background-image: url("../Shoes webpage/imgs/pagbg2.jpg");
+    background-image: url("imgs/pagbg2.jpg");
     background-position: 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -373,7 +373,7 @@ main {
 
 /* mask image */
 .card-image-with-svg-mask-1 {
-    -webkit-mask: url("../Shoes webpage/imgs/UP-center.png") center / contain no-repeat, url("../Shoes webpage/imgs/downrightpage1.png") center / contain no-repeat, linear-gradient(#000000 0 0);
+    -webkit-mask: url("imgs/UP-center.png") center / contain no-repeat, url("imgs/downrightpage1.png") center / contain no-repeat, linear-gradient(#000000 0 0);
     mask-size: 22rem, 30rem;
     mask-position: top center, bottom right;
     mask-composite: exclude;
@@ -424,7 +424,7 @@ p.text-1 .bold:hover{
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    background: url("../Shoes webpage/imgs/cham.avif") top / cover no-repeat;
+    background: url("imgs/cham.avif") top / cover no-repeat;
     background-clip: text;
     color: transparent;
     cursor: pointer;
